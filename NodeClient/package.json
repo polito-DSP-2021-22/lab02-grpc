@@ -1,0 +1,34 @@
+{
+  "name": "swagger-to-do-list",
+  "version": "1.0.0",
+  "description": "This is a sample server for the management of a To Do list.",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "swagger"
+  ],
+  "license": "Unlicense",
+  "private": true,
+  "dependencies": {
+    "@grpc/proto-loader": "^0.6.6",
+    "bcrypt": "^5.0.1",
+    "connect": "^3.2.0",
+    "express": "^4.17.1",
+    "express-json-validator-middleware": "^2.2.1",
+    "express-jwt": "^6.1.0",
+    "express-session": "^1.17.2",
+    "fs": "0.0.1-security",
+    "grpc": "^1.24.11",
+    "js-yaml": "^3.14.1",
+    "moment": "^2.29.1",
+    "oas3-tools": "2.0.2",
+    "passport": "^0.5.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "sqlite3": "^5.0.2",
+    "storage": "^0.2.0"
+  }
+}
